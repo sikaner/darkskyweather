@@ -9,9 +9,7 @@ export const WeatherDisplay = ({address, temperature, iconType}) => {
     <div
       style={{
         display: 'flex',
-        marginTop: 40,
-        marginLeft: 20,
-        padding: 20
+        justifyContent: 'center'
       }}
       id='weather-display'
     >

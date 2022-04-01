@@ -57,7 +57,7 @@ const WeatherContainer = ({
   }, [locationError, weatherError])
 
   return (
-    <div style={{display: 'flex', flexDirection: 'column', paddingBottom: 50}}>
+    <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', paddingBottom: 50}}>
       <WeatherInputForm fetchWeather={(value) => fetchLatLng('address', value)} />
       <div style={{marginLeft: 30, marginBottom: 30}} id='loader'>
         <ClipLoader

@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 export const WeatherInputForm = ({fetchWeather}) => {
   const [value, setValue] = useState('')
   return (
-    <div style={{display: 'flex', flexDirection: 'column', width: 500}}>
+    <div style={{display: 'flex', flexDirection: 'column', width: '50%'}}>
       <FormControl>
         <div style={{display: 'flex', marginLeft: 30, marginTop: 30}}>
           <InputLabel
