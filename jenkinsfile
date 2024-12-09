@@ -4,7 +4,7 @@ pipeline {
     environment {
         // Set up environment variables for Git repository and credentials
         GIT_REPO_URL = 'https://github.com/sikaner/darkskyweather.git'
-        GIT_CREDENTIALS = 'your-jenkins-credentials-id' // This should be the ID of your Jenkins GitHub credentials
+        GIT_CREDENTIALS = 'Sky_weather' // This should be the ID of your Jenkins GitHub credentials
     }
 
     stages {
