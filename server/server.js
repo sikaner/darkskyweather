@@ -22,7 +22,7 @@ app.use((req, res, next) => {
 app.use(bodyParser.json())
 app.use('/', routes)
 
-app.listen(3001, err => {
-    if (!err) console.log(`Server Running on port ${3001}`) //eslint-disable-line
+app.listen(8080, err => {
+    if (!err) console.log(`Server Running on port ${8080}`) //eslint-disable-line
     else console.log(err) //eslint-disable-line
 })
